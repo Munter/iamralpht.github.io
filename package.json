@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/iamralpht/iamralpht.github.io/issues"
   },
-  "homepage": "http://iamralpht.github.io/"
+  "homepage": "http://iamralpht.github.io/",
+  "devDependencies": {
+    "assetgraph-builder": "^2.11.0"
+  }
 }
