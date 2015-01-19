@@ -5,7 +5,8 @@
   "description": "ralpht's web examples and demos",
   "main": "index.html",
   "scripts": {
-    "build": "rm -rf dist && buildProduction --root . --outroot dist --optimizeimages *.html *.txt *.ico"
+    "build": "rm -rf dist && buildProduction --root . --outroot dist --optimizeimages *.html *.txt *.ico",
+    "deploy": "npm run build && git subtree push --prefix dist origin gh-pages"
   },
   "repository": {
     "type": "git",
