@@ -1,0 +1,20 @@
+{
+  "name": "iamralpht.github.io",
+  "private": true,
+  "version": "0.0.0",
+  "description": "ralpht's web examples and demos",
+  "main": "index.html",
+  "scripts": {
+    "build": "rm -rf dist && buildProduction --root . --outroot dist --optimizeimages *.html *.txt *.ico"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamralpht/iamralpht.github.io.git"
+  },
+  "author": "Ralph Thomas <ralpht@gmail.com>",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "bugs": {
+    "url": "https://github.com/iamralpht/iamralpht.github.io/issues"
+  },
+  "homepage": "http://iamralpht.github.io/"
+}
